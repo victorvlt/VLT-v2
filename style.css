@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+}
+
+.navbar-brand
+    {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+h2, h3 {
+    font-family: "Century Gothic", Arial;
+    margin-top: 3em; 
+}
+
+p {
+    font-family: "Quicksand", "Century Gothic", Arial;
+}
+
+.contacter{
+    width: 50%;
+}
+
+.contacter:hover {
+    content: url('img/contacter_hover.png');
+}
+
+.voir:hover {
+    content: url('img/voir_curseur.gif')
+}
+
+.fa {
+    color: black;
+    transition: transform .5s;
+}
+
+.fa:hover {
+    transform: scale(1.2);
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+a:hover {
+    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
